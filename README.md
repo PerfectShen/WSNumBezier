@@ -6,4 +6,4 @@
 
 
 [我的博客](http://www.cnblogs.com/Seeulater/ "欢迎私信我哦")
-[!预览图](https://github.com/PerfectShen/WSNumBezier/blob/master/NumBezier1.gif);
+[![预览图]](https://github.com/PerfectShen/WSNumBezier/blob/master/NumBezier1.gif);
