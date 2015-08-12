@@ -54,6 +54,10 @@
 // 还可以 设置  ease in ， ease out ，ease inout ，以及spring动画 。 有需要 联系840787626@qq.com
 
 
+//推荐大家一个网站 － 在这里你可以随意diy 你的 动画曲线 －
+//http://labs.pufen.net/cubic-bezier/#0,.57,.44,1
+
+
 - (WSPoint)pointWithdt:(float )dt{
     
     WSPoint result;
