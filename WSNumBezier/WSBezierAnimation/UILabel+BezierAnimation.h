@@ -9,6 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface UILabel (BezierAnimation)
+    
+    
+/**
+ 构造器
+
+ @param frame
+ @return label
+ */
++ (instancetype)ws_animationLabelWithFrame:(CGRect )frame;
 
 //label 上的数字  从某一个值变化到 另一个值  －  （动画） － 
 

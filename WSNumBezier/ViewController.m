@@ -21,7 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.aLabel = [[UILabel alloc] initWithFrame:CGRectMake(50, 100, CGRectGetWidth(self.view.frame) - 100, 40)];
+    self.aLabel = [UILabel ws_animationLabelWithFrame:CGRectMake(50, 100, CGRectGetWidth(self.view.frame) - 100, 40)];
     self.aLabel.backgroundColor = [UIColor orangeColor];
     self.aLabel.textColor = [UIColor blackColor];
     [self.view addSubview:self.aLabel];

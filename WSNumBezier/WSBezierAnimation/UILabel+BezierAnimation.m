@@ -27,16 +27,15 @@ float _lastTime; //纪录每一个点的 时刻
 int _index;
 
 
-- (instancetype)initWithFrame:(CGRect)frame{
-    
-    if (self = [super initWithFrame:frame]) {
-        
-        [self _initBezier];
-        [self _cleanVars];
-    }
-    
-    return self;
+
++ (instancetype)ws_animationLabelWithFrame:(CGRect )frame{
+
+    UILabel *aLabel = [[UILabel alloc] initWithFrame:frame];
+    [aLabel _initBezier];
+    [aLabel _cleanVars];
+    return aLabel;
 }
+
 
 - (void)_cleanVars{
     
